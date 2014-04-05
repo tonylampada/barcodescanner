@@ -35,8 +35,8 @@ function receiveMessage(e) {
 		}
 	}
 }
-var DecodeWorker = new Worker("../DecoderWorker.js");
-var FlipWorker = new Worker("../DecoderWorker.js");
+var DecodeWorker = new Worker("DecoderWorker.js");
+var FlipWorker = new Worker("DecoderWorker.js");
 DecodeWorker.onmessage = receiveMessage;
 FlipWorker.onmessage = receiveMessage;
 var resultArray = [];
