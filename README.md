@@ -11,3 +11,4 @@ using jhuckaby's and eddiela's code
 
 Live demo:
 
+http://tonylampada.github.io/barcodescanner/
